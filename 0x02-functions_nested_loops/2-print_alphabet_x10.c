@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet - alphabet print in lowercase
+ * print_alphabet_x10 - print alphabet 10 times
+ * Return: Always 0
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int duplicate;
 
@@ -15,6 +16,6 @@ void print_alphabet(void)
 		{
 			_putchar(alphabet);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
